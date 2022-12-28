@@ -1,0 +1,69 @@
+.page, .random-info, .inspiration{
+  padding: 0 10%;
+}
+.page{
+  background-color: green;
+}
+.random-info, .text-random-info{
+  background-color: blue;
+}
+.text-random-info{
+  margin:0;
+  padding:5vh 0;
+  text-align: center;
+}
+.header, .page-intro, .random-info{
+  display: flex;
+}
+.header p{
+  flex:auto;
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 10vh;
+}
+.header .header-logo{
+  flex-grow:10;
+}
+.page-intro .page-intro-child{
+  flex: 1 1 auto;
+}
+.page-intro .page-intro-child, .page-intro img{
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 30vh;
+  margin: 0;
+}
+.random-info{
+  padding-bottom: 5vh;
+}
+.random-info .random-info-1,
+.random-info .random-info-2,
+.random-info .random-info-3,
+.random-info .random-info-4{
+    flex: 1 1 auto;
+}
+
+.random-info .random-info-1 img, .random-info .random-info-1 p,
+.random-info .random-info-2 img, .random-info .random-info-2 p,
+.random-info .random-info-3 img, .random-info .random-info-3 p,
+.random-info .random-info-4 img, .random-info .random-info-4 p{
+  background: peachpuff;
+  border: 4px solid brown;
+  width:100%;
+  height: auto;
+  align-content: center;
+  text-align: center;
+}
+
+.inspiration{
+  background-color: yellow;
+
+}
+.inspiration .inspiration-text{
+  margin:0;
+  padding-top:5vh;
+  text-align: center;
+}
+.inspiration .inspiration-author{
+  text-align: right;
+}
