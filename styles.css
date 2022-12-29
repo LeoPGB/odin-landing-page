@@ -1,4 +1,4 @@
-.page, .random-info, .inspiration, .action, footer{
+.page, .random-info, .inspiration, .action{
   padding: 5vh 20%;
 }
 .page, footer{
@@ -155,5 +155,6 @@ body{
 
 footer, .inspiration .inspiration-author, .header-logo
 {
+  padding:3vh 20%;
   font-size:18px;
 }
