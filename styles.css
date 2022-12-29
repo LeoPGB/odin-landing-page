@@ -1,160 +1,186 @@
-.page, .random-info, .inspiration, .action{
+.page, .random-info, .inspiration, .action {
   padding: 5vh 20%;
 }
-.page, footer{
+
+.page, footer {
   background-color: #1f2937;
 }
-.page{
-  padding-top:0;
+
+.page {
+  padding-top: 0;
 }
-.text-random-info{
-  margin:0;
-  padding:5vh 0;
+
+.text-random-info {
+  margin: 0;
+  padding: 5vh 0;
   text-align: center;
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
 }
-.header, .page-intro, .random-info, .action, .page-intro-text{
+
+.header, .page-intro, .random-info, .action, .page-intro-text {
   display: flex;
 }
-.header .header-link, .header .header-logo{
+
+.header .header-link, .header .header-logo {
   height: 5vh;
   margin: 5vh 0;
 }
-.header .header-link{
-  flex:auto;
+
+.header .header-link {
+  flex: auto;
 }
-.header .header-logo{
-  flex-grow:10;
+
+.header .header-logo {
+  flex-grow: 10;
 }
-.header-logo{
+
+.header-logo {
   color: #f9faf8;
   font-weight: bolder;
 }
-.header-link{
+
+.header-link {
   text-align: right;
 }
-.page-intro{
+
+.page-intro {
   margin: 0;
 }
-.page-intro .page-intro-text{
+
+.page-intro .page-intro-text {
   flex: auto;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   height: 30vh;
 }
-.page-intro-t1{
+
+.page-intro-t1 {
   color: #f9faf8;
   font-size: 48px;
   margin: 0;
   font-weight: bolder;
 }
-.page-intro-t2, .header-link{
+
+.page-intro-t2, .header-link {
   color: #e5e7eb;
   font-size: 18px;
 }
-.page-intro-t2{
+
+.page-intro-t2 {
   margin: 0;
 }
-.page-intro-text button{
+
+.page-intro-text button {
   width: 20%;
 }
- .page-intro img{
+
+.page-intro img {
   height: 30vh;
   margin: 0;
   align-self: center;
 }
-.random-info{
+
+.random-info {
   padding-bottom: 5vh;
 }
+
 .random-info .random-info-1,
 .random-info .random-info-2,
 .random-info .random-info-3,
-.random-info .random-info-4{
-    flex: 1 1 auto;
+.random-info .random-info-4 {
+  flex: 1 1 auto;
 }
 
 .random-info .random-info-1 img, .random-info .random-info-1 p,
 .random-info .random-info-2 img, .random-info .random-info-2 p,
 .random-info .random-info-3 img, .random-info .random-info-3 p,
-.random-info .random-info-4 img, .random-info .random-info-4 p{
-  width:80%;
+.random-info .random-info-4 img, .random-info .random-info-4 p {
+  width: 80%;
   height: auto;
   align-content: center;
   text-align: center;
   font-size: 18px;
 }
-.random-info-1 img, .random-info-2 img, .random-info-3 img, .random-info-4 img{
+
+.random-info-1 img, .random-info-2 img, .random-info-3 img, .random-info-4 img {
   border: 4px solid #3882f6;
   border-radius: 10px;
 }
 
-.inspiration{
+.inspiration {
   background-color: #e5e7eb;
 }
 
-.inspiration .inspiration-text{
-  margin:0;
-  padding-top:5vh;
+.inspiration .inspiration-text {
+  margin: 0;
+  padding-top: 5vh;
   text-align: center;
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
-  color:#1f2937;
-}
-.inspiration .inspiration-author{
-  text-align: right;
-  margin:0;
-  font-weight: bolder;
-  color:#1f2937;
+  color: #1f2937;
 }
 
-.action{
+.inspiration .inspiration-author {
+  text-align: right;
+  margin: 0;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.action {
   color: #f9faf8;
   background-color: #3882f6;
   border: 1vh solid #3882f6;
   border-radius: 10px;
-  margin:5vh 20%;
-  padding:5vh 0;
+  margin: 5vh 20%;
+  padding: 5vh 0;
 }
-.action .action-text{
+
+.action .action-text {
   background-color: #3882f6;
   flex: 1 1 100%;
   margin-left: 5%;
 }
-.action-text p{
-  margin:0;
+
+.action-text p {
+  margin: 0;
 }
-.action-text-t1{
+
+.action-text-t1 {
   font-weight: bolder;
   font-size: 20px;
 }
-.action button{
+
+.action button {
   background-color: #3882f6;
   border: 4px solid white;
-  width:100%;
+  width: 100%;
   flex: 1 1 25%;
   margin-right: 5%;
 }
-button{
+
+button {
   background-color: #3882f6;
   border-radius: 5px;
   font-weight: bold;
   font-size: 18px;
   color: white;
 }
-footer{
+
+footer {
   text-align: center;
   padding-bottom: 5vh;
   color: #f9faf8;
 }
-body{
-  margin:0;
+
+body {
+  margin: 0;
 }
 
-footer, .inspiration .inspiration-author, .header-logo
-{
-  padding:3vh 20%;
-  font-size:18px;
+footer, .inspiration .inspiration-author, .header-logo {
+  padding: 3vh 20%;
+  font-size: 18px;
 }
