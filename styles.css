@@ -172,7 +172,7 @@ button {
 
 footer {
   text-align: center;
-  padding-bottom: 5vh;
+  padding: 3vh 20%;
   color: #f9faf8;
 }
 
@@ -181,6 +181,5 @@ body {
 }
 
 footer, .inspiration .inspiration-author, .header-logo {
-  padding: 3vh 20%;
   font-size: 18px;
 }
